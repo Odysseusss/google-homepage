@@ -64,18 +64,76 @@ input:hover {
     -webkit-box-shadow: 0 0 1px 2px rgb(190, 188, 188);
 }
 
-footer {
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 15px;
+    overflow: hidden;
+    background-color:white;
+    font-size: small;
+  }
+  
+  li {
+    float: left;
+  }
+  
+
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  }
+
+  
+  .blue {
+    background-color: rgb(22, 96, 207);
+    color: white;
+
+  }
+  
+
+  
+ .navbar {
+    background-color: White;
+    overflow: hidden;
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
-}
-
-header {
+  }
+  
+  
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: rgb(245, 240, 240);
+    overflow: hidden;
     position: fixed;
-    right: 0;
-    top: 0;
+    bottom: 0;
     width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar, all float left
+  except the inline styled */
+  .navbar a {
+    float: left;
+    display: block;
+    color: Black;
     text-align: center;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: small;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    text-decoration: underline;
+    
+  }
+  
+ 
