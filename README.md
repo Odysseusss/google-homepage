@@ -1,0 +1,1 @@
+ I suppose the project is to dissect a website, learn about placing the elements and styling them. This is the first attemp at this task, cheers.
