@@ -2,18 +2,19 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 20%;
     padding-top: 109px;
+    padding-bottom: 30px;
 }
 
-
+/* ^ for the google image */
 
 .button {
     
     
     background-color: #F2F2F2;
     color: black;
-    padding: 10px 28px;
+    padding: 5px 19px;
     font-size: 16px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,7 +24,7 @@
     text-align: center;
     display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 38%;
 }
   
@@ -31,47 +32,50 @@
 .search {
     
     color: darkgrey;
+    border-style: none;
 }
   
 .search:hover {
-    border: 2px solid darkgrey;
+    border: 1px solid rgb(202, 196, 196);
     color: black;
 }
  
 .lucky {
-    
+    border-style: none;
     color: darkgrey;
 }
   
 .lucky:hover {
-    border: 2px solid darkgrey;
+    border: 1px solid rgb(202, 196, 196);
     color: black;
 }
   
+/* ^ Style for the two google buttons, for reference...took hours */
 
-input{
-    border: none;
-    padding: 10px;
-    margin: 1px 375px;
-    height: 20px;
-    width: 500px;
-    border:1px solid #eaeaea;
-    outline:none;
-    border-radius: 20px;
+input {
+
+  width: 46%;
+  padding: 14px 45px;
+  margin-left: 355px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing:border-box ;
 }
 
 input:hover {
     -webkit-box-shadow: 0 0 1px 2px rgb(190, 188, 188);
 }
 
+/* search function */
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 15px 15px;
+    margin-right: 10px ;
+    padding: 10px 20px;
     overflow: hidden;
     background-color:white;
-    font-size: small;
+    font-size: 12.5px;
   }
   
   li {
@@ -84,19 +88,25 @@ ul {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
     text-decoration: none;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   }
 
   
   .blue {
-    background-color: rgb(22, 96, 207);
+    background-color: rgb(104, 139, 255);
     color: white;
+    padding: 8px 16px;
+    cursor: wait;
+    
+    
 
   }
   
-
+.z:hover { text-decoration: underline;
+            cursor: pointer;
+}
   
  .navbar {
     background-color: White;
@@ -133,7 +143,24 @@ ul {
   /* Change the color of links on hover */
   .navbar a:hover {
     text-decoration: underline;
+    cursor: pointer;
     
   }
   
- 
+ .tang {
+
+    position: absolute;
+    visibility: visible; 
+    left: 375px; 
+    top: 305px; 
+    z-index: 200; 
+}  
+
+.mic {
+
+    position: absolute;
+    visibility: visible; 
+    left: 905px; 
+    top: 305px; 
+    z-index: 200; 
+}  
